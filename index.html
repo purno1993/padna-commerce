@@ -13,9 +13,9 @@
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg" style="background-color: #f6eaf3;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -26,16 +26,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#watch">Watch</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#watch">Watch</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact_us">Contact us</a>
+                            <a class="nav-link">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -44,30 +44,65 @@
     </div>
 
     <div class="container">
-        <div id="carouselExample" class="carousel slide">
+        <div id="carouselExampleAutoplaying" class="carousel slide pink-bg" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h2>Mega LCD TV For Sports
+                            </h2>
+                            <p>This is the best tv in the world for people who just want to waste time in front of tv.
+                            </p>
+                            <h2 class="price">$1200</h2>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h2>Cool Dude Headphone</h2>
+                            <p>This is the best tv in the world for people who just want to waste time in front of funky
+                                world.</p>
+                            <h2 class="price">$420</h2>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h2>X-Box for Living Room</h2>
+                            <p>This is the best tv in the world for people who just want to waste time in front of funky
+                                world.</p>
+                            <h2 class="price">$220</h2>
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
